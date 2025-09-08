@@ -22,10 +22,14 @@ Unit tests:
 - context_tests.py - bare tests of the data interface
 - mcp_tests.py - tests that verify the mcp http interface is working
 
-Work remaining: (I would guess another 2-4 hours at my current pace)
-- Agent interface (started)
-- Agent unit tests (adversarial llm tests )
-- Package structure, directory structure
+Work remaining: (I would guess another 2-6 hours at my current pace)
+- Agent interface (started) (~1 hrs)
+- Agent unit tests (adversarial llm tests ) (~1 hrs)
+- Package structure, directory structure (~0.5 hrs)
+- applying some pandas / filtering to the data to clean it. Not sure yet what filtering would be at the LLM level or pandas level (~1-2 hrs)
+- Link to API  (~1-2 hrs)
+
+it does feel like this kind of task might take me 3-8 more hours. So if you have a method to code this up in < 2 hours I would be interested in seeing examples.
 
 Full disclosure:
 
