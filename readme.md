@@ -3,8 +3,8 @@ Justins notes (9am-11:pm cut off)
 Thanks for reviewing. I put about 2.5 hours in, and I'm not quite sure how to finish a task like this in two hours with reasonable quality. I would be interested in understanding how to approach this class with less code in a way that takes under 2 hours (without delegating to roo code or something and crossing your fingers.)
 
 The design is this
-
-CsvAgentCLI (unfinished ) -> CsvProtocolService (tested, http) ->  CsvContext(tested, unittests)
+### AGENT -> PROTOCOL -> CONTEXT 
+### CsvAgentCLI (unfinished) -> CsvProtocolService (tested, http) ->  CsvContext(tested, unittests)
 
 
 quick_tools.py -- A CLI service that I used to unpack the data. I always make one of these to hold manual commands
